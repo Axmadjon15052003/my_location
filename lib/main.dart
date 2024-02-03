@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Location Example'),
+        title: const Text('Location '),
       ),
       body: Center(
         child: Column(
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () => _getCurrentPosition(1),
-              child: const Text('Get Location 1'),
+              child: const Text('Location 1'),
             ),
             const SizedBox(height: 20),
             if (position2 != null)
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () => _getCurrentPosition(2),
-              child: const Text('Get Location 2'),
+              child: const Text('Location 2'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 );
               },
-              child: const Text('Calculate Distance'),
+              child: const Text('Calculate '),
             ),
           ],
         ),
